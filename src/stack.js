@@ -17,21 +17,15 @@ class Stack {
     this.mySteck = [];
   }
   push(element) {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
     this.mySteck.push(element);
   }
 
   pop() {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
     return this.mySteck.pop();
   }
 
   peek() {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
-    return this.mySteck[mySteck.length-1];
+    return this.mySteck[this.mySteck.length-1];
   }
 }
 
